@@ -8,7 +8,6 @@ Features:
 * Pulls the Tulu3 8B model using Ollama.
 * Prompts the user for the path to a kernel log file.
 * Sends the log content to the Tulu3 model for analysis.
-* Removes `<think>` sections from the model's output.
 * Prints the Tulu3 model's analysis of the OOM kill.
 
 Usage:
