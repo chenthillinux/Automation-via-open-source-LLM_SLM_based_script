@@ -22,14 +22,32 @@ Usage:
       - Install Ollama if necessary.
       - Pull the Tulu3 8B model.
       - Prompt you to enter the path to the kernel log file.
+      - Prompt you to enter the path to the prompt file.
       - Send the log content to the Tulu3 model for analysis.
       - Print the model's analysis to the console.
+    
+       # python3 ollama_tulu_8Bkernel_oom_call_trace_analysis_prompt_as_separate_file.py
+       Enter the path to the prompt file: <full path of the file>
+       Enter the path to the log file: <full path of the file>
 
 Requirements:
 
 *   Python 3
 *   Ollama installed and configured
 *   Tulu3 8B model pulled (using Ollama)
+
+**Key Features:**
+
+* **Ollama Integration:** 
+    * Automatically installs Ollama if not found.
+    * Pulls the Tulu3 8B model for analysis.
+* **Flexible Prompts:** 
+    * Allows you to define custom prompts for analysis in a separate file.
+* **Log File Input:** 
+    * Prompts the user to provide the path to the kernel log file.
+* **Tulu3 Analysis:**
+    * Sends the log content and the provided prompt to the Tulu3 model for analysis.
+    * Prints the model's analysis output.
 
 Note:
 
