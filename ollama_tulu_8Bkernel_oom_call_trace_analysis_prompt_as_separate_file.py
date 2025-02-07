@@ -46,11 +46,14 @@ def analyze_log_with_tulu3(log_content, prompt_content):
         print("No log content to analyze.")
         return
 
-    # Run the tulu3 model with the prompt
+    # Construct the full prompt by combining prompt and log content
+    full_prompt = f"{prompt_content}\n\nLog Content:\n{log_content}"
+
+    # Run the tulu3 model with the full prompt
     print("Sending log content to tulu3 model for analysis...")
     result = subprocess.run(
         ["ollama", "run", "tulu3"],
-        input=prompt_content.encode(), 
+        input=full_prompt.encode(),
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
