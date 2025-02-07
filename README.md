@@ -26,7 +26,7 @@ Usage:
       - Send the log content to the Tulu3 model for analysis.
       - Print the model's analysis to the console.
     
-       # python3 ollama_tulu_8Bkernel_oom_call_trace_analysis_prompt_as_separate_file.py
+       python3 ollama_tulu_8Bkernel_oom_call_trace_analysis_prompt_as_separate_file.py
        Enter the path to the prompt file: <full path of the file>
        Enter the path to the log file: <full path of the file>
 
