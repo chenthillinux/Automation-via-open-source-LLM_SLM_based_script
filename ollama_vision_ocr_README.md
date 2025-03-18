@@ -1,4 +1,4 @@
-# Llama 3.2 Vision with Ollama
+# Llama 3.2 Vision LLM for OCR and Image Analysis 
 
 This Python script utilizes the Llama 3.2 Vision model, accessible through Ollama, to analyze images and provide textual responses based on user-provided prompts.
 
@@ -37,7 +37,7 @@ Before running the script, ensure you have the following installed:
 
 2.  **Run the Script:**
     ```bash
-    python ollama_vision_ocr.py
+    python3 ollama_vision_ocr.py
 
     ```
 
