@@ -1,4 +1,4 @@
-# Ollama Log Analyzer
+# Ollama Log Analyzer ( Multiple log file Analyzer )
 
 This Python script automates the process of analyzing log files using Large Language Models (LLMs) through Ollama. It handles Ollama installation, model downloading, reading log and prompt files, and sending the content to the selected LLM for analysis.
 
