@@ -56,4 +56,3 @@ This Python script utilizes Ollama to analyze a single log file using a Large La
 * **`analyze_log(log_content, prompt_content, model_name)`:** Combines the prompt and log content, sends it to the selected LLM, and prints the response.
 * **`if __name__ == "__main__":`:** The main execution block of the script, handling user input, model selection, and log analysis.
 
-## Example
